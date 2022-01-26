@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main-part-section{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.main-marks{
+    border-radius: 3px;
+     margin-top: 20px;
+   background-color: whitesmoke;
+   box-shadow: rgb(49, 46, 46);
+   border: rgb(29, 27, 27);
+   margin-bottom: 20px;
+
+}
+.marks{
+    
+    border-radius: 3px;
+    display: grid;
+    grid-template-columns: auto auto;
+   justify-content:space-between;
+   margin-top: 20px;
+   background-color: whitesmoke;
+   box-shadow: rgb(49, 46, 46);
+   border: rgb(29, 27, 27);
+}
+.name-class-img{
+    margin: 20px;
+    display: grid;
+    grid-template-columns: auto auto;
+    
+}
+.name-class{
+    margin-left: 15px;
+}
+.image{
+    margin-left: 15px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+.test-body{
+    margin-left: 45px;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+}
+.test-mark{
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+.marks-name{
+    margin-right: 20px;
+    background-color: rgba(211, 216, 137, 0.514);
+    
+    margin-top: 30%;
+    width: 80px;
+    height: 20px;
+    border-radius: 20px;
+   color: rgb(47, 63, 3);
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-weight: bolder;
+    border: none;
+    
+   
+    
+}
+.marks-name-fees{
+    margin-right: 20px;
+    background-color: rgba(142, 173, 155, 0.644);
+    
+    
+    margin-top: 30%;
+    width: 80px;
+    height: 20px;
+    border-radius: 20px;
+   color: rgb(9, 12, 11);
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-weight: bolder;
+    border: none;
+    
+}
+@media screen and (max-width:630px) {
+    .main-part-section{
+        display: grid;
+        grid-template-columns: 100%;
+    }
+}

@@ -1,0 +1,60 @@
+*{
+  padding: 0%;
+  margin: 0;
+  box-sizing: border-box;
+ 
+}
+.body{
+  margin: 5%;
+  
+}
+.header{
+  display: grid;
+  grid-template-columns: 200px 10px;
+}
+
+.hrzantal{
+  height: 4px;
+  color: aqua;
+  background-color: blue;
+  border-radius: 10px;
+}
+.massageCount{
+  
+ border-radius: 15px;
+ width: 20px;
+ height: 20px;
+ background-color: red;
+ border: none;
+ color: white;
+ font-weight: bolder;
+}
+@media screen and (max-width:627px) {
+  .h2{
+    color: blue;
+  }
+}
+@media screen and (max-width:627px) {
+  #hrzantal{
+   
+    height: 4px;
+    color: aqua;
+    background-color: blue;
+  }
+  
+  
+}
+@media screen and (max-width:627px) {
+ 
+  #massageCount{
+   
+   border-radius: 15px;
+   width: 20px;
+   height: 20px;
+   background-color: red;
+   border: none;
+   color: white;
+   font-weight: bolder;
+  }
+  
+}
